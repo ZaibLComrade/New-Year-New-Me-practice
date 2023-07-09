@@ -1,1 +1,44 @@
-css
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Work Sans;
+}
+
+.wrap {
+	background-image: url(images/banner/banner3.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 90vh;
+	position: relative;
+}
+
+.wrap-content {
+	margin-right: 0px;
+	text-align: right;
+	position: absolute;	
+	top: 230px;
+	right: 220px;
+	width: 381px;
+	color: white;
+}
+
+.title {
+	font-size: 50px;
+}
+
+.description {
+	margin-top: 20px;
+	font-size: 12px;
+	line-height: 21px;
+}
+
+.btn {
+	padding: 13px 20px;
+	margin-top: 25px;
+	color: #005CEE;
+	font-weight: 800;
+	font-size: 16px;
+	background-color: white;
+	border: 2px solid white;
+	border-radius: 5px;
+}
