@@ -98,23 +98,26 @@ li {
 }
 
 .positive-mindset-container {
-	/* display: relative; */
 	background-image: url("images/watch.png");
 	background-repeat: no-repeat;
 	border-radius: 8px;
 	background-size: cover;
-	padding: 100px;
+	height: 300px;
 	margin: 100px 200px;
 	color: white;
 	border-radius: 10px;
 }
 
-/* .gradient {
-	/* display: absolute; */
-	/* background-image: url("images/gradient1.png"); */
-	/* margin: 0; */
-	/* padding:  */
-	/* 10px; */
-	/* background-size: inherit; */
-	/* background-repeat: no-repeat; */
-} */
+.gradient {
+	background-image: url("images/gradient1.png");
+	background-repeat: no-repeat;
+	height: inherit;
+ } 
+
+ .mindset-content {
+	 position: relative;
+	 top: 60px;
+	 left: 40px;
+	 width: 460px;
+	 margin-top: 200px;
+ }
